@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
        Scanner in = new Scanner(System.in);
-        System.out.println("How old are you?");
+        System.out.println("What is your favourite colour?");
         String name = in.nextLine();;
 
         if(name.equals(""))
@@ -12,6 +12,7 @@ public class App {
         } 
         else
 {
-         System.err.println("my age is " + 22 + ".");
+         String purple = "Purple";
+        System.err.println("My favourite colour is " + purple + ".");
 }}
     }
